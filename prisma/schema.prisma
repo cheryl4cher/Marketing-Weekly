@@ -1,0 +1,33 @@
+// Prisma schema for marketing case weekly generator
+// See https://pris.ly/d/prisma-schema for docs
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      ="file:./dev.db"
+}
+
+model Case {
+  id                  Int       @id @default(autoincrement())
+  title               String
+  cover_image_url     String
+  brief               String
+  full_content_html   String
+  brand               String
+  publish_date        DateTime
+  source_url          String
+  ai_strategy_analysis String?
+  ai_tags             String?
+  ai_scores           String?
+  ai_deep_insight     String?
+  collected           Boolean   @default(false)
+  created_at          DateTime  @default(now())
+
+  @@index([publish_date])
+  @@index([brand])
+  @@index([collected])
+  @@unique([source_url])
+}
