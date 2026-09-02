@@ -3,9 +3,11 @@
 
 ## 页面预览
 
-![首页截图](/public/images/homepage.png)
+[首页截图](/public/images/homepage.png)
 
-![详情弹窗](/public/images/detail.png)
+(/public/images/homepage_blank.png)
+
+[详情弹窗](/public/images/detail.png)
 
 
 ## 功能特性
