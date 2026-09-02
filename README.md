@@ -18,10 +18,6 @@
 - AI 模型：DeepSeek API
 
 ## 快速开始
-克隆项目：
-git clone https://github.com/cheryl4cher/Marketing-Weekly.git
-cd Marketing-Weekly
-
 安装依赖：
 pnpm install
 
@@ -68,10 +64,10 @@ pnpm run dev
 - created_at：创建时间
 
 
-作者
+## 作者
 Cheryl
 GitHub: https://github.com/cheryl4cher
 
-致谢
+## 致谢
 - 案例数据来源：广告门
 - AI 能力由 DeepSeek 提供
