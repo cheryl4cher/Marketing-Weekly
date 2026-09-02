@@ -1,6 +1,13 @@
 # Marketing Weekly · 营销案例AI分析工具
 一个自动化的营销案例追踪与分析工具。从广告门等平台自动抓取最新营销案例，通过大模型生成策略分析，并呈现为杂志风格的周刊页面。
 
+## 页面预览
+
+![首页截图](/public/images/homepage.png)
+
+![详情弹窗](/public/images/detail.png)
+
+
 ## 功能特性
 - 自动抓取：使用 Playwright 定时抓取广告门案例库，支持滚动加载和反爬策略
 - AI 分析：调用大模型 API，自动生成品牌介绍、策略解读、标签体系和深度洞察
@@ -62,6 +69,7 @@ pnpm run dev
 - ai_deep_insight：AI 深度洞察
 - collected：是否收藏
 - created_at：创建时间
+
 
 
 ## 作者
